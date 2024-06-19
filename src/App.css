@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#hero {
+  background-image: url('./hero.jpg');
+  background-size: cover;
+}
+#content {
+  background-image: url('./bg4.jpg');
+  background-size: cover;
+}
+
+.zoom {
+  transition: transform 0.3s ease; /* Transición suave para la transformación */
+}
+
+.zoom:hover {
+  transform: scale(1.1); /* Aumenta el tamaño del elemento al 110% del tamaño original */
+}
