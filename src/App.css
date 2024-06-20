@@ -8,11 +8,11 @@ body {
 }
 
 #hero {
-  background-image: url('hero.jpg');
+  background-image: url('/hero.jpg');
   background-size: cover;
 }
 #content {
-  background-image: url('bg4.jpg');
+  background-image: url('/bg4.jpg');
   background-size: cover;
 }
 
