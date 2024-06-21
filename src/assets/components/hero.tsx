@@ -6,14 +6,16 @@ const Hero = () => {
 
         <div className="flex gap-12"> 
           <img className="rounded-full" src="/pic.png"></img>
-          <div>
-            <h1 className='text-4xl text-white text-center flex justify-center items-center mb-12'>Manu Pedrobelli</h1>
+          <div className="flex flex-col items-center justify-center">
+            <h1 className='text-4xl text-white text-center mb-12'>Manu Pedrobelli</h1>
             <p>
               Hey! I'm Manu<br></br>
               This is my blog, where i upload videos of guitar covers.<br></br>
               I hope you enjoy.<br></br>
               Like and subscribe!
             </p>
+
+
           </div>
         </div>
       
