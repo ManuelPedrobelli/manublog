@@ -1,11 +1,13 @@
-
 const article = () => {
   return (
-    <div className='zoom flex items-center justify-center bg-white bg-opacity-70 mx-auto rounded-full py-4 gap-12 w-3/5 mt-12 mb-12'>
-        <img src="video1.png" alt="Video 1" className="rounded-full w-3/6 " />
-        <div className="flex flex-col gap-4 mt-8  items-center justify-center">
-            <h2 className='text-2xl p-4 text-black text-bold text-center'>Pillars of creation - Keith merrow</h2>
-        </div>
+    <div className='zoom flex items-center justify-start bg-black bg-opacity-70 mx-auto rounded-xl p-4 gap-12 mt-12 mb-12 w-2/5 overflow-hidden'>
+      <img src="video1.png" alt="Video 1" className="rounded-xl w-1/3" />
+      <div className="flex flex-col items-center justify-center">
+        <h2 className='p-4 text-white font-bold text-center '>Pillars of creation - Keith merrow</h2>
+        <p className="text-xs">
+          Tuning: B#
+        </p>
+      </div>
     </div>
   );
 };
